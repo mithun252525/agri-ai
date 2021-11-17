@@ -5,11 +5,10 @@ import CropRecommender from "./components/CropRecommender";
 import FertilizerRecommender from "./components/FertilizerRecommender";
 import NavBar from "./components/NavBar";
 
-
 function App() {
   return (
     <div style={{
-      backgroundImage:`url(${process.env.PUBLIC_URL + 'assets/green.jpg'})`
+      backgroundImage:`url(${process.env.PUBLIC_URL + 'assets/background.jpg'})`
     }} className="container">
       <div class="overlay">
       <Router>
